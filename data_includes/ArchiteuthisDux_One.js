@@ -26,25 +26,17 @@ var completionErrorMessage = "Eroare în trimiterea răspunsurilor dumneavoastr�
 // Controller settings.
 // Parameter settings taken from Staub 2009
 var defaults = [
-     "EPDashedSentence", {
-        mode: 'speeded acceptability',
-        display: 'in place',
-        blankText: '+',
-        wordTime: 1000,
-        wordPauseTime: 150
-        },
-        DS, {randomOrder: false,
+    DS, {q: 'Is this sentence grammatical?',
+        as: [['f','Yes'],['j','No']],
+        randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
         wordTime: 250,
-        wordPauseTime: 150,
-        timeout: 3000,
-        hasCorrect: false,
-        q: ''}
+        wordPauseTime: 125,
+        timeout: 2000}
 ];
-
 // Add breaks every 24 items
 function modifyRunningOrder(ro)
 {
@@ -79,6 +71,37 @@ var items = [
 ['shared-intro', "Form", {consentRequired: false, html: {include: "shared_intro1.html"}}],
 ['shared-intro', "Form", {consentRequired: false, html: {include: "shared_intro2.html"}}],
 ['shared-intro', "Form", {consentRequired: false, html: {include: "shared_intro3.html"}}],
+    
+    
+    ['shared-intro', Message, {consentRequired: false,
+                   html: ["div",
+                           ["p", "There are no right or wrong answers; many speakers have different intuitions about whether a sentence sounds right or wrong, and that's perfectly natural."],
+                           ["p", "Let's try one practice item."]
+                         ]}],
+
+['shared-intro', Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}, DS, {s: "Those cats was snoring loudly."}],
+
+['shared-intro', Message, {consentRequired: false,
+                   html: ["div",
+                           ["p", "How was that? That item is one that some, but not all, English speakers judge to be grammatical. "],
+                           ["p", "Let's try some more."]
+                         ]}],
+
+['shared-intro', Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}, DS, {s: "At the ball, the prince waltzed slowly would smile."}],
+['shared-intro', Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}, DS, {s: "Without warning, Geoffrey turned and screamed at the waiter who embarrassed him."}],
+['shared-intro', Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}, DS, {s: "Madame de Plessy has sitted up all night worrying about her son."}],
+['shared-intro', Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}, DS, {s: "The barista lazily made a latte and didn't even try to make a design on top."}],
+
+['shared-intro', Message, {consentRequired: false,
+                   html: ["div",
+                           ["p", "Alright, that's it for practice! Hit any key when you're ready to begin."]
+                        ]}],
+
+['shared-intro',"Separator",{transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."}],
+
+//// Shared experimental items + fillers
+
+[["FLAPJACK-AMBIG-SHORT",1], DS, {s:"I’m not sure which treasure the pirate noticed at the beach found."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
