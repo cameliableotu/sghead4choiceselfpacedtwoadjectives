@@ -77,7 +77,6 @@ var items = [
 
 //// Shared experimental items + fillers
 
-[["FLAPJACK-AMBIG-SHORT",1], DS, {s:"I’m not sure which treasure the pirate noticed at the beach found."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
