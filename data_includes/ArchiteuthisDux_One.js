@@ -53,7 +53,7 @@ function modifyRunningOrder(ro)
         }
     }
     return ro;
-}
+};
 
 // Items array.
 var items = [
