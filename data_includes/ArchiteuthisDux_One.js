@@ -227,6 +227,18 @@ var items = [
 [["filler-twonounssingularcorrectchoice",46],DS, {s:"Pisicile pe care doamna le îngrijeşte sunt slabe."},"QuestionAlt", {q: "Cine îngrijeşte?", as: ["Pisicile","Doamna"]}],
 [["filler-twonounssingularcorrectchoice",47],DS, {s:"Cuvintele pe care preotul le rosteşte sunt înţelepte."},"QuestionAlt", {q: "Cine rosteşte?", as: ["Cuvintele","Preotul"]}],
 [["filler-twonounssingularcorrectchoice",48],DS, {s:"Câinii pe care pisica îi urăşte sunt răi."},"QuestionAlt", {q: "Cine urăşte?", as: ["Câinii","Pisica"]}]
-
+,
+    [["filler-coordination",49],DS, {s:"Femeia şi copilul beau mult suc."}, "QuestionAlt", {q: "Cât suc beau femeia şi copilul?", as: ["Mult","Puţin"]}],
+[["filler-coordination",50],DS, {s:"Doctorul şi bolnavul plâng mult din cauza bolii."},"QuestionAlt", {q: "De ce plâng doctorul şi bolnavul?", as: ["Din cauza bolii","De tristeţe"]}],
+[["filler-coordination",51],DS, {s:"Vulpoiul şi vulpea sar în aer foarte rapid."},"QuestionAlt", {q: "Cum sar în aer vulpoiul şi vulpea?", as: ["Foarte rapid","Foarte lent"]}],
+[["filler-coordination",52],DS, {s:"Găina şi puiul ciugulesc firimituri adesea."},"QuestionAlt", {q: "Ce ciugulesc găina şi puiul?", as: ["Firimituri","Boabe"]}],
+[["filler-coordination",53],DS, {s:"Paharul şi sticla cad de pe birou uneori."}, "QuestionAlt", {q: "Ce ciugulesc găina şi puiul?", as: ["Firimituri","Boabe"]}],
+ [["filler-coordination",54],DS, {s:"Oboseala şi plictisul ucid iubirea adesea."},"QuestionAlt", {q: "Ce ucid oboseala şi plictisul?", as: ["Iubirea","Prietenia"]}],
+[["filler-coordination",55],DS, {s:"Iubirea şi prietenia susţin moralul întotdeauna."},"QuestionAlt", {q: "Ce susţin iubirea şi prietenia?", as: ["Moralul","Căsătoria"]}],
+[["filler-coordination",56],DS, {s:"Căţelul şi pisica dorm după cină adesea."},"QuestionAlt", {q: "Când dorm căţelul şi pisica adesea?", as: ["După cină","Boabe"]}],
+ [["filler-coordination",57],DS, {s:"Cafeaua şi ceaiul au efecte laxative."},"QuestionAlt", {q: "Ce fel de efecte au cafeaua şi ceaiul?", as: ["Laxative","Terapeutice"]}],
+[["filler-coordination",58],DS, {s:"Trandafirul şi zambila miros foarte frumos."},"QuestionAlt", {q: "Cum miros trandafirul şi zambila?", as: ["Foarte frumos","Suportabil"]}],
+[["filler-coordination",59],DS, {s:"Cartea şi caietul sunt pe masă mereu."},"QuestionAlt", {q: "Unde sunt cartea şi caietul?", as: ["Pe masă","Pe pat"]}],
+[["filler-coordination",60],DS, {s:"Papagalul şi băiatul vorbesc foarte mult unul cu altul."},"QuestionAlt", {q: "Cu cine vorbesc papagalul şi băiatul?", as: ["Unul cu altul","Cu prietenii lor"]}]
 ];
 
