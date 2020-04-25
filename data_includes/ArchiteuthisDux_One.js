@@ -212,77 +212,8 @@ var items = [
 [["filler-twonounspluralcorrectchoice",33],DS, {s:"Vinul pe care bucătarii îl beau este roşu."},"QuestionAlt", {q: "Cine bea (ceva)?", as: ["Vinul","Bucătarii"]}],
 [["filler-twonounspluralcorrectchoice",34],DS, {s:"Câinele pe care doctorii îl hrănesc este bolnav."},"QuestionAlt", {q: "Cine hrăneşte?", as: ["....","Bucătarii"]}],
 [["filler-twonounspluralcorrectchoice",35], DS, {s:"Poemul pe care tinerii îl spun este emoţionant."}, "QuestionAlt", {q: "Cine spune ceva?", as: ["Poemul","Tinerii"]}],
-[["filler-twonounspluralcorrectchoice",36],DS, {s:"Omul pe care animalele îl îndrăgesc este blând. "},"QuestionAlt", {q: "Cine îndrăgeşte (pe cineva)?", as: ["Omul","Animalele"]}],
+[["filler-twonounspluralcorrectchoice",36],DS, {s:"Omul pe care animalele îl îndrăgesc este blând. "},"QuestionAlt", {q: "Cine îndrăgeşte (pe cineva)?", as: ["Omul","Animalele"]}]
 
-
-
-[["filler-twonounssingularcorrectchoice",37],DS, {s:"Vinurile pe care domnul le iubeşte sunt seci."},"QuestionAlt", {q: "Cine iubeşte?", as: ["Vinurile","Domnul"]}],
-[["filler-twonounssingularcorrectchoice",38],DS, {s:"Scrisorile pe care fata le citeşte sunt lungi."},"QuestionAlt", {q: "Cine citeşte?", as: ["Scrisorile","Fata"]}],
-[["filler-twonounssingularcorrectchoice",39],DS, {s:"Girafele pe care copilul le priveşte sunt înalte."},"QuestionAlt", {q: "Cine priveşte?", as: ["Girafele","Copilul"]}],
-[["filler-twonounssingularcorrectchoice",40],DS, {s:"Motanii pe care bunicul îi adăposteşte sunt tigraţi."},"QuestionAlt", {q: "Cine adăposteşte?", as: ["Motanii","Bunicul"]}],
-[["filler-twonounssingularcorrectchoice",41],DS, {s:"Şerpii pe care bărbatul îi striveşte sunt veninoşi."},"QuestionAlt", {q: "Cine striveşte?", as: ["Şerpii","Bărbatul"]}],
-[["filler-twonounssingularcorrectchoice",42],DS, {s:"Stelele pe care înţeleptul le urmăreşte sunt strălucitoare."}, "QuestionAlt", {q: "Cine urmăreşte?", as: ["Stelele","Inteleptul"]}],
-[["filler-twonounssingularcorrectchoice",43],DS, {s:"Barurile pe care pictorul le construieşte sunt artistice."},"QuestionAlt", {q: "Cine construieşte?", as: ["Barurile","Pictorul"]}],
-[["filler-twonounssingularcorrectchoice",44],DS, {s:"Păsările pe care colecţionarul le vede sunt impresionante."},"QuestionAlt", {q: "Cine urmăreşte?", as: ["Stelele","Inteleptul"]}],
-[["filler-twonounssingularcorrectchoice",45],DS, {s:"Sucurile pe care chelnerul le bea sunt dulci."},"QuestionAlt", {q: "Cine bea?", as: ["Sucurile","Chelnerul"]}],
-[["filler-twonounssingularcorrectchoice",46],DS, {s:"Pisicile pe care doamna le îngrijeşte sunt slabe."},"QuestionAlt", {q: "Cine îngrijeşte?", as: ["Pisicile","Doamna"]}],
-[["filler-twonounssingularcorrectchoice",47],DS, {s:"Cuvintele pe care preotul le rosteşte sunt înţelepte."},"QuestionAlt", {q: "Cine rosteşte?", as: ["Cuvintele","Preotul"]}],
-[["filler-twonounssingularcorrectchoice",48],DS, {s:"Câinii pe care pisica îi urăşte sunt răi."},"QuestionAlt", {q: "Cine urăşte?", as: ["Câinii","Pisica"]}],
-
-
-[["filler-coordination",49],DS, {s:"Femeia şi copilul beau mult suc."}, "QuestionAlt", {q: "Cât suc beau femeia şi copilul?", as: ["Mult","Puţin"]}],
-[["filler-coordination",50],DS, {s:"Doctorul şi bolnavul plâng mult din cauza bolii."},"QuestionAlt", {q: "De ce plâng doctorul şi bolnavul?", as: ["Din cauza bolii","De tristeţe"]}],
-[["filler-coordination",51],DS, {s:"Vulpoiul şi vulpea sar în aer foarte rapid."},"QuestionAlt", {q: "Cum sar în aer vulpoiul şi vulpea?", as: ["Foarte rapid","Foarte lent"]}],
-[["filler-coordination",52],DS, {s:"Găina şi puiul ciugulesc firimituri adesea."},"QuestionAlt", {q: "Ce ciugulesc găina şi puiul?", as: ["Firimituri","Boabe"]}],
-[["filler-coordination",53],DS, {s:"Paharul şi sticla cad de pe birou uneori."}, "QuestionAlt", {q: "Ce ciugulesc găina şi puiul?", as: ["Firimituri","Boabe"]}],
- [["filler-coordination",54],DS, {s:"Oboseala şi plictisul ucid iubirea adesea."},"QuestionAlt", {q: "Ce ucid oboseala şi plictisul?", as: ["Iubirea","Prietenia"]}],
-[["filler-coordination",55],DS, {s:"Iubirea şi prietenia susţin moralul întotdeauna."},"QuestionAlt", {q: "Ce susţin iubirea şi prietenia?", as: ["Moralul","Căsătoria"]}],
-[["filler-coordination",56],DS, {s:"Căţelul şi pisica dorm după cină adesea."},"QuestionAlt", {q: "Când dorm căţelul şi pisica adesea?", as: ["După cină","Boabe"]}],
- [["filler-coordination",57],DS, {s:"Cafeaua şi ceaiul au efecte laxative."},"QuestionAlt", {q: "Ce fel de efecte au cafeaua şi ceaiul?", as: ["Laxative","Terapeutice"]}],
-[["filler-coordination",58],DS, {s:"Trandafirul şi zambila miros foarte frumos."},"QuestionAlt", {q: "Cum miros trandafirul şi zambila?", as: ["Foarte frumos","Suportabil"]}],
-[["filler-coordination",59],DS, {s:"Cartea şi caietul sunt pe masă mereu."},"QuestionAlt", {q: "Unde sunt cartea şi caietul?", as: ["Pe masă","Pe pat"]}],
-[["filler-coordination",60],DS, {s:"Papagalul şi băiatul vorbesc foarte mult unul cu altul."},"QuestionAlt", {q: "Cu cine vorbesc papagalul şi băiatul?", as: ["Unul cu altul","Cu prietenii lor"]}],
-
-[["filler-semanticchoice",61],DS, {s:"Lampa de lângă cartea verde se aprinde uşor."},"QuestionAlt", {q: "Ce se aprinde uşor?", as: ["Lampa","Cartea verde"]}],
- [["filler-semanticchoice",62],DS, {s:"Fetiţa de lângă camera albastră dansează."},"QuestionAlt", {q: "Cine/ce dansează?", as: ["Fetiţa","Camera albastră"]}],
-[["filler-semanticchoice",63],DS, {s:"Iepuraşul de lângă scaunul roşu doarme."},"QuestionAlt", {q: "Cine/ce doarme?", as: ["Iepuraşul","Scaunul roşu"]}],
-[["filler-semanticchoice",64],DS, {s:"Pasărea de lângă masa neagră cântă bine."},"QuestionAlt", {q: "Cine/ce cântă bine?", as: ["Pasărea","Masa neagră"]}],
-[["filler-semanticchoice",65,DS, {s:"Măgarul de lângă căţelul maro rage adesea. "},"QuestionAlt", {q: "Cine rage adesea?", as: ["Măgarul","Căţelul maro"]}],
-[["filler-semanticchoice",66],DS, {s:"Papucii de lângă copiii bolnavi alunecă uşor."},"QuestionAlt", {q: "Cine/ce alunecă uşor?", as: ["Papucii","Copiii bolnavi"]}],
-[["filler-semanticchoice",67],DS, {s:"Hainele de lângă femeile zâmbăreţe cad mereu."},"QuestionAlt", {q: "Cine/ce cad mereu?", as: ["Hainele","Femeile zâmbăreţe"]}],
- [["filler-semanticchoice",68],DS, {s:"Albinele de lângă portocalele stricate bȃzȃie prea tare."},"QuestionAlt", {q: "Cine/ce bȃzȃie prea tare?", as: ["Albinele","Portocalele stricate"]}],
-[["filler-semanticchoice",69],DS, {s:"Râul de lângă pădurea frumoasă curge adesea vara."},"QuestionAlt", {q: "Cine/ce bȃzȃie prea tare?", as: ["Albinele","Portocalele stricate"]}],
-[["filler-semanticchoice",70],DS, {s:"Urşii de lângă prinţesele minunate se căsătoresc."},"QuestionAlt", {q: "Cine se căsătoresc?", as: ["Urşii","Prinţesele minunate"]}],
- [["filler-semanticchoice",71],DS, {s:"Florile de lângă sticlele albastre se ofilesc mereu."},"QuestionAlt", {q: "Ce se ofilesc mereu?", as: ["Florile","Sticlele albastre"]}],
-[["filler-semanticchoice",72],DS, {s:"Calculatoarele de lângă copiii năzdrăvani se strică uneori."}, "QuestionAlt", {q: "Cine/ce se strică uneori?", as: ["Calculatoarele","Copiii năzdrăvani"]}],
-
-
-[["filler-onenounplagreement",73], DS, {s:"Iepuraşii fricoşi se ascund de oameni adesea."}, "QuestionAlt", {q: "Cine se ascunde de oameni adesea?", as: ["Iepuraşii fricoşi","Leii fricoşi"]}],
-[["filler-onenounplagreement",74], DS, {s:"Cutremurele mari distrug locuinţe tot timpul."}, "QuestionAlt", {q: "Ce distrug cutremurele mari tot timpul?", as: ["Locuinţe","Grădini"]}],
-[["filler-onenounplagreement",75], DS, {s:"Grădinile japoneze au trandafiri adesea."}, "QuestionAlt", {q: "Ce au grădinile japoneze?", as: ["Trandafiri","Zambile"]}],
-[["filler-onenounplagreement",76], DS, {s:"Fetele seducătoare atrag admiratori adesea."},"QuestionAlt", {q: "Cine atrage admiratori adesea?", as: ["Fetele seducătoare ","Femeile seducătoare "]}],
-[["filler-onenounplagreement",77], DS, {s:"Muzicienii creativi compun melodii deosebite."},"QuestionAlt", {q: "Cine compun melodii deosebite?", as: ["Muzicienii creativi","....."]}],
-[["filler-onenounplagreement",78], DS, {s:"Rănile sufleteşti dor foarte tare."},"QuestionAlt", {q: "Ce dor foarte tare?", as: ["Rănile sufleteşti","Rănile fizice"]}],
-[["filler-onenounplagreement",79], DS, {s:"Paharele colorate conţin suc de portocale."},"QuestionAlt", {q: "Ce conţin paharele colorate?", as: ["Suc de portocale","Suc de afine"]}],
-[["filler-onenounplagreement",80], DS, {s:"Hamsterii curioşi apar în bucătărie adesea."},"QuestionAlt", {q: "Cine apar în bucătărie adesea?", as: ["Hamsterii curioşi","Iepurii curioşi"]}],
-[["filler-onenounplagreement",81], DS, {s:"Elevii cuminţi doresc note mari."},"QuestionAlt", {q: "Cine doresc note mari?", as: ["Elevii cuminţi","Elevii leneşi"]}],
-[["filler-onenounplagreement",82], DS, {s:"Parfumurile franţuzeşti miros incredibil de frumos."},"QuestionAlt", {q: "Ce miros incredibil de frumos?", as: ["Parfumurile franţuzeşti","Parfumurile englezeşti"]}],
-[["filler-onenounplagreement",83], DS, {s:"Bunicii iubitori dau multe cadouri nepoţilor lor."},"QuestionAlt", {q: "Cine dau multe cadouri nepoţilor lor?", as: ["Bunicii iubitori","Părinţii iubitori"]}],
-[["filler-onenounplagreement",84], DS, {s:"Cheile verzi deschid multe uşi."},"QuestionAlt", {q: "Ce deschid cheile verzi?", as: ["Multe uşi","Multe cufere"]}],
-
-
-[["filler-onenounsgagreement",85],DS, {s:"Fata şatenă se ascunde de prieteni adesea."}, "QuestionAlt", {q: "Cine se ascunde de prieteni adesea.?", as: ["Fata şatenă","Fata blondă"]}],
-[["filler-onenounsgagreement",86],DS, {s:"Pisica năzdrăvană sparge vase tot timpul."},"QuestionAlt", {q: "Cine sparge vase tot timpul?", as: ["Pisica năzdrăvană","Pisica simpatică"]}],
-[["filler-onenounsgagreement",87],DS, {s:"Caietul negru are pagini albe."},"QuestionAlt", {q: "Ce pagini are caietul negru?", as: ["Albe","Galbene"]}],
-[["filler-onenounsgagreement",88],DS, {s:"Magnetul maro atrage metale adesea."},"QuestionAlt", {q: "Ce atrage magnetul maro adesea?", as: ["Metale","Galbene"]}],
-[["filler-onenounsgagreement",89],DS, {s:"Pixul albastru scrie foarte bine."},"QuestionAlt", {q: "Cum scrie pixul albastru?", as: ["Foarte bine","Foarte prost"]}],
-[["filler-onenounsgagreement",90],DS, {s:"Iepurele alb sare cu mare agilitate."},"QuestionAlt", {q: "Cine sare cu mare agilitate?", as: ["Iepurele alb","Iepurele maro"]}],
-[["filler-onenounsgagreement",91],DS, {s:"Studentul harnic munceşte foarte mult."},"QuestionAlt", {q: "Cine munceşte foarte mult?", as: ["Studentul harnic","Studentul deştept"]}],
-[["filler-onenounsgagreement",92],DS, {s:"Femeia misterioasă dispare în străinătate adesea."},"QuestionAlt", {q: "Cine dispare în străinătate adesea?", as: ["Femeia misterioasă","Bărbatul misterios"]}],
-[["filler-onenounsgagreement",93],DS, {s:"Poetul talentat vorbeşte foarte frumos."},"QuestionAlt", {q: "Cine vorbeşte foarte frumos?", as: ["Poetul talentat","Artistul talentat"]}],
-[["filler-onenounsgagreement",94],DS, {s:"Mâncarea gustoasă miroase foarte bine."},"QuestionAlt", {q: "Ce miroase foarte bine?", as: ["Mâncarea gustoasă","Zambila roz"]}],
-[["filler-onenounsgagreement",95],DS, {s:"Cursul masteral cuprinde multe informaţii."},"QuestionAlt", {q: "Ce cuprinde cursul masteral?", as: ["Multe informaţii","Informaţii..."]}],
-[["filler-onenounsgagreement",96],DS, {s:"Bagajul mare conţine haine de iarnă."},"QuestionAlt", {q: "Ce conţine bagajul mare?", as: ["Haine de iarnă","Haine de vară"]}]
 
 
 ];
