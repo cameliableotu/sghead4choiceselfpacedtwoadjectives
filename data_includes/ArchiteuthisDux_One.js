@@ -53,7 +53,7 @@ function modifyRunningOrder(ro)
         }
     }
     return ro;
-};
+}
 
 // Items array.
 var items = [
@@ -268,4 +268,4 @@ var items = [
 ["filler-bad-968", DS, {s:"Daniela typed text messages on her cellphone, and it really was clear she wasn't paying any attention to us."}],
 ["filler-bad-969", DS, {s:"The bored patient waited in the waiting room for hours, but in the end the doctor went home without even seeing her."}]
 ];
-© 2020 GitHub, Inc.
+
