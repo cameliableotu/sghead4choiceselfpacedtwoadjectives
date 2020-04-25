@@ -240,5 +240,18 @@ var items = [
 [["filler-coordination",58],DS, {s:"Trandafirul şi zambila miros foarte frumos."},"QuestionAlt", {q: "Cum miros trandafirul şi zambila?", as: ["Foarte frumos","Suportabil"]}],
 [["filler-coordination",59],DS, {s:"Cartea şi caietul sunt pe masă mereu."},"QuestionAlt", {q: "Unde sunt cartea şi caietul?", as: ["Pe masă","Pe pat"]}],
 [["filler-coordination",60],DS, {s:"Papagalul şi băiatul vorbesc foarte mult unul cu altul."},"QuestionAlt", {q: "Cu cine vorbesc papagalul şi băiatul?", as: ["Unul cu altul","Cu prietenii lor"]}]
+,
+[["filler-semanticchoice",61],DS, {s:"Lampa de lângă cartea verde se aprinde uşor."},"QuestionAlt", {q: "Ce se aprinde uşor?", as: ["Lampa","Cartea verde"]}],
+ [["filler-semanticchoice",62],DS, {s:"Fetiţa de lângă camera albastră dansează."},"QuestionAlt", {q: "Cine/ce dansează?", as: ["Fetiţa","Camera albastră"]}],
+[["filler-semanticchoice",63],DS, {s:"Iepuraşul de lângă scaunul roşu doarme."},"QuestionAlt", {q: "Cine/ce doarme?", as: ["Iepuraşul","Scaunul roşu"]}],
+[["filler-semanticchoice",64],DS, {s:"Pasărea de lângă masa neagră cântă bine."},"QuestionAlt", {q: "Cine/ce cântă bine?", as: ["Pasărea","Masa neagră"]}],
+[["filler-semanticchoice",65,DS, {s:"Măgarul de lângă căţelul maro rage adesea. "},"QuestionAlt", {q: "Cine rage adesea?", as: ["Măgarul","Căţelul maro"]}],
+[["filler-semanticchoice",66],DS, {s:"Papucii de lângă copiii bolnavi alunecă uşor."},"QuestionAlt", {q: "Cine/ce alunecă uşor?", as: ["Papucii","Copiii bolnavi"]}],
+[["filler-semanticchoice",67],DS, {s:"Hainele de lângă femeile zâmbăreţe cad mereu."},"QuestionAlt", {q: "Cine/ce cad mereu?", as: ["Hainele","Femeile zâmbăreţe"]}],
+ [["filler-semanticchoice",68],DS, {s:"Albinele de lângă portocalele stricate bȃzȃie prea tare."},"QuestionAlt", {q: "Cine/ce bȃzȃie prea tare?", as: ["Albinele","Portocalele stricate"]}],
+[["filler-semanticchoice",69],DS, {s:"Râul de lângă pădurea frumoasă curge adesea vara."},"QuestionAlt", {q: "Cine/ce bȃzȃie prea tare?", as: ["Albinele","Portocalele stricate"]}],
+[["filler-semanticchoice",70],DS, {s:"Urşii de lângă prinţesele minunate se căsătoresc."},"QuestionAlt", {q: "Cine se căsătoresc?", as: ["Urşii","Prinţesele minunate"]}],
+ [["filler-semanticchoice",71],DS, {s:"Florile de lângă sticlele albastre se ofilesc mereu."},"QuestionAlt", {q: "Ce se ofilesc mereu?", as: ["Florile","Sticlele albastre"]}],
+[["filler-semanticchoice",72],DS, {s:"Calculatoarele de lângă copiii năzdrăvani se strică uneori."}, "QuestionAlt", {q: "Cine/ce se strică uneori?", as: ["Calculatoarele","Copiii năzdrăvani"]}]
 ];
 
