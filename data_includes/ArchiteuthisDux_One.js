@@ -6,10 +6,10 @@ var showProgressBar = true;
 // Main shuffleSequence definition
 var shuffleSequence = seq(
     'consent',
+    'intro',
     'shared-intro',
     sepWith("timeoutSep", rshuffle(startsWith('ATTRACTAGREEMENT'),startsWith('filler'))),
-    'intro',
-    'debrief');
+     'debrief');
 
 // Using modified controller coded by Ethan Poole (Umass, 2017)
 // Disallows use of mouse for responses.
