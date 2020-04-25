@@ -9,7 +9,7 @@ var shuffleSequence = seq(
     'setcounter',
     'intro',
     'shared-intro',
-    sepWith("timeoutSep", rshuffle(startsWith('ATTRACTAGREEROMANIAN'),startsWith('filler'))),
+    sepWith("timeoutSep", rshuffle(startsWith('ATTRAGREEROMANIAN'),startsWith('filler'))),
      'debrief');
 
 // Using modified controller coded by Ethan Poole (Umass, 2017)
