@@ -252,6 +252,20 @@ var items = [
 [["filler-semanticchoice",69],DS, {s:"Râul de lângă pădurea frumoasă curge adesea vara."},"QuestionAlt", {q: "Cine/ce bȃzȃie prea tare?", as: ["Albinele","Portocalele stricate"]}],
 [["filler-semanticchoice",70],DS, {s:"Urşii de lângă prinţesele minunate se căsătoresc."},"QuestionAlt", {q: "Cine se căsătoresc?", as: ["Urşii","Prinţesele minunate"]}],
 [["filler-semanticchoice",71],DS, {s:"Florile de lângă sticlele albastre se ofilesc mereu."},"QuestionAlt", {q: "Ce se ofilesc mereu?", as: ["Florile","Sticlele albastre"]}],
-[["filler-semanticchoice",72],DS, {s:"Calculatoarele de lângă copiii năzdrăvani se strică uneori."}, "QuestionAlt", {q: "Cine/ce se strică uneori?", as: ["Calculatoarele","Copiii năzdrăvani"]}]
+[["filler-semanticchoice",72],DS, {s:"Calculatoarele de lângă copiii năzdrăvani se strică uneori."}, "QuestionAlt", {q: "Cine/ce se strică uneori?", as: ["Calculatoarele","Copiii năzdrăvani"]}],
+
+[["filler-onenounplagreement",73], DS, {s:"Iepuraşii fricoşi se ascund de oameni adesea."}, "QuestionAlt", {q: "Cine se ascunde de oameni adesea?", as: ["Iepuraşii fricoşi","Leii fricoşi"]}],
+[["filler-onenounplagreement",74], DS, {s:"Cutremurele mari distrug locuinţe tot timpul."}, "QuestionAlt", {q: "Ce distrug cutremurele mari tot timpul?", as: ["Locuinţe","Grădini"]}],
+[["filler-onenounplagreement",75], DS, {s:"Grădinile japoneze au trandafiri adesea."}, "QuestionAlt", {q: "Ce au grădinile japoneze?", as: ["Trandafiri","Zambile"]}],
+[["filler-onenounplagreement",76], DS, {s:"Fetele seducătoare atrag admiratori adesea."},"QuestionAlt", {q: "Cine atrage admiratori adesea?", as: ["Fetele seducătoare ","Femeile seducătoare "]}],
+[["filler-onenounplagreement",77], DS, {s:"Muzicienii creativi compun melodii deosebite."},"QuestionAlt", {q: "Cine compun melodii deosebite?", as: ["Muzicienii creativi","....."]}],
+[["filler-onenounplagreement",78], DS, {s:"Rănile sufleteşti dor foarte tare."},"QuestionAlt", {q: "Ce dor foarte tare?", as: ["Rănile sufleteşti","Rănile fizice"]}],
+[["filler-onenounplagreement",79], DS, {s:"Paharele colorate conţin suc de portocale."},"QuestionAlt", {q: "Ce conţin paharele colorate?", as: ["Suc de portocale","Suc de afine"]}],
+[["filler-onenounplagreement",80], DS, {s:"Hamsterii curioşi apar în bucătărie adesea."},"QuestionAlt", {q: "Cine apar în bucătărie adesea?", as: ["Hamsterii curioşi","Iepurii curioşi"]}],
+[["filler-onenounplagreement",81], DS, {s:"Elevii cuminţi doresc note mari."},"QuestionAlt", {q: "Cine doresc note mari?", as: ["Elevii cuminţi","Elevii leneşi"]}],
+[["filler-onenounplagreement",82], DS, {s:"Parfumurile franţuzeşti miros incredibil de frumos."},"QuestionAlt", {q: "Ce miros incredibil de frumos?", as: ["Parfumurile franţuzeşti","Parfumurile englezeşti"]}],
+[["filler-onenounplagreement",83], DS, {s:"Bunicii iubitori dau multe cadouri nepoţilor lor."},"QuestionAlt", {q: "Cine dau multe cadouri nepoţilor lor?", as: ["Bunicii iubitori","Părinţii iubitori"]}],
+[["filler-onenounplagreement",84], DS, {s:"Cheile verzi deschid multe uşi."},"QuestionAlt", {q: "Ce deschid cheile verzi?", as: ["Multe uşi","Multe cufere"]}],
+
 ];
 
