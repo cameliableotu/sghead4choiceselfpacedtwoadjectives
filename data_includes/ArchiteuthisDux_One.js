@@ -214,7 +214,19 @@ var items = [
 [["filler-twonounspluralcorrectchoice",35], DS, {s:"Poemul pe care tinerii îl spun este emoţionant."}, "QuestionAlt", {q: "Cine spune ceva?", as: ["Poemul","Tinerii"]}],
 [["filler-twonounspluralcorrectchoice",36],DS, {s:"Omul pe care animalele îl îndrăgesc este blând. "},"QuestionAlt", {q: "Cine îndrăgeşte (pe cineva)?", as: ["Omul","Animalele"]}]
 
-
+,
+    [["filler-twonounssingularcorrectchoice",37],DS, {s:"Vinurile pe care domnul le iubeşte sunt seci."},"QuestionAlt", {q: "Cine iubeşte?", as: ["Vinurile","Domnul"]}],
+[["filler-twonounssingularcorrectchoice",38],DS, {s:"Scrisorile pe care fata le citeşte sunt lungi."},"QuestionAlt", {q: "Cine citeşte?", as: ["Scrisorile","Fata"]}],
+[["filler-twonounssingularcorrectchoice",39],DS, {s:"Girafele pe care copilul le priveşte sunt înalte."},"QuestionAlt", {q: "Cine priveşte?", as: ["Girafele","Copilul"]}],
+[["filler-twonounssingularcorrectchoice",40],DS, {s:"Motanii pe care bunicul îi adăposteşte sunt tigraţi."},"QuestionAlt", {q: "Cine adăposteşte?", as: ["Motanii","Bunicul"]}],
+[["filler-twonounssingularcorrectchoice",41],DS, {s:"Şerpii pe care bărbatul îi striveşte sunt veninoşi."},"QuestionAlt", {q: "Cine striveşte?", as: ["Şerpii","Bărbatul"]}],
+[["filler-twonounssingularcorrectchoice",42],DS, {s:"Stelele pe care înţeleptul le urmăreşte sunt strălucitoare."}, "QuestionAlt", {q: "Cine urmăreşte?", as: ["Stelele","Inteleptul"]}],
+[["filler-twonounssingularcorrectchoice",43],DS, {s:"Barurile pe care pictorul le construieşte sunt artistice."},"QuestionAlt", {q: "Cine construieşte?", as: ["Barurile","Pictorul"]}],
+[["filler-twonounssingularcorrectchoice",44],DS, {s:"Păsările pe care colecţionarul le vede sunt impresionante."},"QuestionAlt", {q: "Cine urmăreşte?", as: ["Stelele","Inteleptul"]}],
+[["filler-twonounssingularcorrectchoice",45],DS, {s:"Sucurile pe care chelnerul le bea sunt dulci."},"QuestionAlt", {q: "Cine bea?", as: ["Sucurile","Chelnerul"]}],
+[["filler-twonounssingularcorrectchoice",46],DS, {s:"Pisicile pe care doamna le îngrijeşte sunt slabe."},"QuestionAlt", {q: "Cine îngrijeşte?", as: ["Pisicile","Doamna"]}],
+[["filler-twonounssingularcorrectchoice",47],DS, {s:"Cuvintele pe care preotul le rosteşte sunt înţelepte."},"QuestionAlt", {q: "Cine rosteşte?", as: ["Cuvintele","Preotul"]}],
+[["filler-twonounssingularcorrectchoice",48],DS, {s:"Câinii pe care pisica îi urăşte sunt răi."},"QuestionAlt", {q: "Cine urăşte?", as: ["Câinii","Pisica"]}]
 
 ];
 
