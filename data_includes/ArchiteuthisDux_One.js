@@ -6,6 +6,7 @@ var showProgressBar = true;
 // Main shuffleSequence definition
 var shuffleSequence = seq(
     'consent',
+    'setcounter',
     'intro',
     'shared-intro',
     sepWith("timeoutSep", rshuffle(startsWith('ATTRACTAGREEMENT'),startsWith('filler'))),
@@ -16,9 +17,9 @@ var shuffleSequence = seq(
 var DS = 'EPDashedSentence';
 
 //  Set the Prolific Academic Completion URL
-var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
-var completionMessage = "Thank you for your participation. Your completion code is 63SFTQ4G. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=63SFTQ4G."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is 63SFTQ4G. Please go to: https://app.prolific.ac/submissions/complete?cc=63SFTQ4G."; 
+var sendingResultsMessage = "Vă rugăm să aşteptaţi. Răspunsurile dumneavoastră se trimit serverului."; 
+var completionMessage = "Mulţumim pentru participare!"; 
+var completionErrorMessage = "Eroare în trimiterea răspunsurilor dumneavoastră către server"; 
 
 // Controller settings.
 var defaults = [
@@ -44,11 +45,11 @@ function modifyRunningOrder(ro)
         {
             ro[i].push(new DynamicElement(
                 "Message",
-                {html: "<p>Please take a short break. Press a button to continue when you're ready.</p>", transfer: "keypress"},
+                {html: "<p>Vă rugăm să luaţi o mică pauză. Apăsaţi orice tastă când sunteţi gata să începeţi din nou.</p>", transfer: "keypress"},
             true));
             ro[i].push(new DynamicElement(
                 "Separator",
-                {transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."},
+                {transfer: 4000, normalMessage: "Atenţie! Primul fragment de propoziţie din acest set va apărea pe ecran în curând."},
             true));
         }
     }
@@ -58,8 +59,8 @@ function modifyRunningOrder(ro)
 // Items array.
 var items = [
 
-
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
+ ["setcounter", "__SetCounter__", { }],
 ["intro", "Form", {consentRequired: true, html: {include: "intro.html"}}],
 ["debrief", "Form", {consentRequired: true, html: {include: "debrief.html"}}],
 
@@ -70,28 +71,28 @@ var items = [
 ['shared-intro', "Form", {consentRequired: false, html: {include: "shared_intro3.html"}}],
 
 
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "This sentence is to get you used to the reading style."}],
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "This is another sentence, which is a bit more complicated than the one that came before it."}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "Această propoziţie e menită să vă obişnuiască cu stilul de lectură."}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "Această propoziţie este un pic mai complicată decȃt propoziţia pe care aţi citit-o mai înainte."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "How was that? It is important that you move through the sentence carefully and deliberately, making sure that you understand each word as you go."],
-                           ["p", "Let's try some more."]
+                           ["p", "Cum vi s-a părut?"],
+                           ["p", "Citiți cu atenție, avȃnd grijă să înțelegeți fiecare cuvȃnt. Hai să mai exersăm un pic."]
                          ]}],
 
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "At the ball, the prince waltzed and slowly smiled at the princess."},"QuestionAlt", {q: "Who smiled?", as: ['The prince','The princess']}],
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "Without warning, Geoffrey turned and screamed at the waiter who had embarrassed him."}],
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "The trainee talking to the barista lazily made a latte and didn't even try to make a design on top."},"QuestionAlt", {q: "Who made a latte?", as: ['The trainee','The barista']}],
-['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}, DS, {s: "Madame de Plessy sat up all night worrying about her son who was on the front lines."}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "La bal, prinţul a valsat frumos şi a zȃmbit prinţesei."},"QuestionAlt", {q: "Cine a zȃmbit?", as: ['Prinţul','Prinţesa']}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "Iepurii au alergat mult aseară."}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "Miruna a stat toată noaptea cu fiul ei."},"QuestionAlt", {q: "Cine a stat toată noaptea cu fiul ei?", as: ['Miruna','Marina']}],
+['shared-intro', Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}, DS, {s: "Barista a pregătit un latte fără niciun chef şi nici măcar nu a făcut vreun design."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Alright, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Press any key when you're ready to begin."]
+                           ["p", "Bun, gata cu exersatul! Apăsaţi orice tastă când sunteţi gata să începeţi."]
                         ]}],
 
-['shared-intro',"Separator",{transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."}],
+['shared-intro',"Separator",{transfer: 4000, normalMessage: "Atenţie! Prima propoziţie din acest set va apărea pe ecran în curând."}],
 
-["timeoutSep", Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}],
+["timeoutSep", Separator, { transfer: 1500, normalMessage: "+", errorMessage: "Răspuns greşit. Vă rugăm să citiți cu atenție."}],
 
 //// Shared experimental items + fillers
 
