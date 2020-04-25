@@ -267,5 +267,17 @@ var items = [
 [["filler-onenounplagreement",83], DS, {s:"Bunicii iubitori dau multe cadouri nepoţilor lor."},"QuestionAlt", {q: "Cine dau multe cadouri nepoţilor lor?", as: ["Bunicii iubitori","Părinţii iubitori"]}],
 [["filler-onenounplagreement",84], DS, {s:"Cheile verzi deschid multe uşi."},"QuestionAlt", {q: "Ce deschid cheile verzi?", as: ["Multe uşi","Multe cufere"]}],
 
+[["filler-onenounsgagreement",85],DS, {s:"Fata şatenă se ascunde de prieteni adesea."}, "QuestionAlt", {q: "Cine se ascunde de prieteni adesea.?", as: ["Fata şatenă","Fata blondă"]}],
+[["filler-onenounsgagreement",86],DS, {s:"Pisica năzdrăvană sparge vase tot timpul."},"QuestionAlt", {q: "Cine sparge vase tot timpul?", as: ["Pisica năzdrăvană","Pisica simpatică"]}],
+[["filler-onenounsgagreement",87],DS, {s:"Caietul negru are pagini albe."},"QuestionAlt", {q: "Ce pagini are caietul negru?", as: ["Albe","Galbene"]}],
+[["filler-onenounsgagreement",88],DS, {s:"Magnetul maro atrage metale adesea."},"QuestionAlt", {q: "Ce atrage magnetul maro adesea?", as: ["Metale","Galbene"]}],
+[["filler-onenounsgagreement",89],DS, {s:"Pixul albastru scrie foarte bine."},"QuestionAlt", {q: "Cum scrie pixul albastru?", as: ["Foarte bine","Foarte prost"]}],
+[["filler-onenounsgagreement",90],DS, {s:"Iepurele alb sare cu mare agilitate."},"QuestionAlt", {q: "Cine sare cu mare agilitate?", as: ["Iepurele alb","Iepurele maro"]}],
+[["filler-onenounsgagreement",91],DS, {s:"Studentul harnic munceşte foarte mult."},"QuestionAlt", {q: "Cine munceşte foarte mult?", as: ["Studentul harnic","Studentul deştept"]}],
+[["filler-onenounsgagreement",92],DS, {s:"Femeia misterioasă dispare în străinătate adesea."},"QuestionAlt", {q: "Cine dispare în străinătate adesea?", as: ["Femeia misterioasă","Bărbatul misterios"]}],
+[["filler-onenounsgagreement",93],DS, {s:"Poetul talentat vorbeşte foarte frumos."},"QuestionAlt", {q: "Cine vorbeşte foarte frumos?", as: ["Poetul talentat","Artistul talentat"]}],
+[["filler-onenounsgagreement",94],DS, {s:"Mâncarea gustoasă miroase foarte bine."},"QuestionAlt", {q: "Ce miroase foarte bine?", as: ["Mâncarea gustoasă","Zambila roz"]}],
+[["filler-onenounsgagreement",95],DS, {s:"Cursul masteral cuprinde multe informaţii."},"QuestionAlt", {q: "Ce cuprinde cursul masteral?", as: ["Multe informaţii","Informaţii..."]}],
+[["filler-onenounsgagreement",96],DS, {s:"Bagajul mare conţine haine de iarnă."},"QuestionAlt", {q: "Ce conţine bagajul mare?", as: ["Haine de iarnă","Haine de vară"]}]
 ];
 
