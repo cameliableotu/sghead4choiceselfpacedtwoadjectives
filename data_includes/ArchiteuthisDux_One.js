@@ -102,7 +102,7 @@ var items = [
 [["ATTRAGREEROMANIAN-matchheadsg",2],DS, {s:"Vioara de lângă cântăreaţa profesionistă mereu au arcuş maro deschis."} ,"QuestionAlt", {q: "Cine/ce are arcuș maro deschis?", as: ["Vioara","Cântăreața"]}],
 [["ATTRAGREEROMANIAN-mismatchheadsg",2],DS, {s:"Vioara de lângă cântăreţele profesioniste mereu au arcuş maro deschis."}, "QuestionAlt", {q: "Cine/ce are arcuș maro deschis?", as: ["Vioara","Cântărețele"]}],
 [["ATTRAGREEROMANIAN-matchheadpl",2],DS, {s:"Viorile de lângă cântăreţele profesioniste mereu au arcuş maro deschis."}, "QuestionAlt", {q: "Cine/ce are arcuș maro deschis?", as: ["Viorile","Cântărețele"]}],
-[["ATTRAGREEROMANIAN-mismatchheadpl",2],DS, {s:" Viorile de lângă cântăreaţa profesionistă mereu au arcuş maro deschis."}],
+[["ATTRAGREEROMANIAN-mismatchheadpl",2],DS, {s:" Viorile de lângă cântăreaţa profesionistă mereu au arcuş maro deschis."},"QuestionAlt",{q: "Cine/ce are arcuș maro deschis?", as: ["Viorile","Cântăreața"]}],
 [["ATTRAGREEROMANIAN-matchheadsg",3],DS, {s:"Rochia de lângă croitoreasa pricepută uneori au dantelă roz delicată. "}],
 [["ATTRAGREEROMANIAN-mismatchheadsg",3],DS, {s:"Rochia de lângă croitoresele pricepute uneori au dantelă roz delicată."}],
 [["ATTRAGREEROMANIAN-matchheadpl",3],DS, {s:"Rochiile de lângă croitoresele pricepute uneori au dantelă roz delicată."}],
