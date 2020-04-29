@@ -24,7 +24,7 @@ var completionErrorMessage = "Eroare în trimiterea răspunsurilor dumneavoastr�
 var defaults = [
     "QuestionAlt", {
         hasCorrect: 0,
-        randomOrder: ['f','j'],
+        randomOrder: ['a','b','c','d'],
         presentHorizontally: true
 },
 "EPDashedSentence", {
