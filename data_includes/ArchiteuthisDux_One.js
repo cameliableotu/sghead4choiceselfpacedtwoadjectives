@@ -23,7 +23,6 @@ var completionErrorMessage = "Eroare în trimiterea răspunsurilor dumneavoastr�
 // Controller settings.
 var defaults = [
     "QuestionAlt", {
-        hasCorrect: 0,
         randomOrder: ['a','b','c','d'],
         presentHorizontally: true
 },
