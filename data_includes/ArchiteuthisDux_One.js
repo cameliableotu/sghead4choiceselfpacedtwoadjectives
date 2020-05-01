@@ -94,7 +94,7 @@ var items = [
 //// Shared experimental items + fillers
 
 [["ATTRAGREEROMANIAN-matchheadsg",1],DS, {s:" Cartea de lângă femeia blondă mereu au un farmec aparte." },"QuestionAlt", {q: "Cine/ Ce are un farmec aparte?", as: ["Cartea","Femeia","Cărţile","Femeile"]}],
-[["ATTRAGREEROMANIAN-mismatchheadsg",1],DS, {s:" Cartea de lângă femeile blobde mereu au un farmec aparte."},"QuestionAlt", {q: "Cine/ Ce are un farmec aparte?", as: ["Cartea","Femeia","Cărţile","Femeile"]}],
+[["ATTRAGREEROMANIAN-mismatchheadsg",1],DS, {s:" Cartea de lângă femeile blonde mereu au un farmec aparte."},"QuestionAlt", {q: "Cine/ Ce are un farmec aparte?", as: ["Cartea","Femeia","Cărţile","Femeile"]}],
 [["ATTRAGREEROMANIAN-matchheadpl",1],DS, {s:"Cărţile de lângă femeile blonde mereu au un farmec aparte."}, "QuestionAlt", {q: "Cine/ Ce are un farmec aparte?", as: ["Cartea","Femeia","Cărţile","Femeile"]}],
 [["ATTRAGREEROMANIAN-mismatchheadpl",1],DS, {s:" Cărţile de lângă femeia blondă mereu au un farmec aparte."},"QuestionAlt", {q: "Cine/ Ce are un farmec aparte?", as: ["Cartea","Femeia","Cărţile","Femeile"]}],
 [["ATTRAGREEROMANIAN-matchheadsg",2],DS, {s:"Vioara de lângă cântăreaţa profesionistă mereu au arcuş maro deschis."},"QuestionAlt", {q: "Cine/ce are arcuș maro deschis?", as: ["Vioara","Cântăreața","Viorile","Cântărețele"]}],
@@ -132,7 +132,7 @@ var items = [
 [["ATTRAGREEROMANIAN-matchheadsg",9],DS, {s:"Cuţitul de lângă organismul viu uneori au viruşi letali numeroşi."},"QuestionAlt", {q: "Cine/ce are viruşi letali numeroşi?", as: ["Cuţitul","Organismul","Cuţitele","Organismele"]}],
 [["ATTRAGREEROMANIAN-mismatchheadsg",9],DS, {s:"Cuţitul de lângă organismele vii uneori au viruşi letali numeroşi."},"QuestionAlt", {q: "Cine/ce are viruşi letali numeroşi?", as: ["Cuţitul","Organismul","Cuţitele","Organismele"]}], 
 [["ATTRAGREEROMANIAN-matchheadpl",9],DS, {s:" Cuţitele de lângă organismele vii uneori au viruşi letali numeroşi."},"QuestionAlt", {q: "Cine/ce are viruşi letali numeroşi?", as: ["Cuţitul","Organismul","Cuţitele","Organismele"]}],
-[["ATTRAGREEROMANIAN-mismatchheadpl",9],DS, {s:" Cuţitele de lângă organismele vii uneori au viruşi letali numeroşi."},"QuestionAlt", {q: "Cine/ce are viruşi letali numeroşi?", as: ["Cuţitul","Organismul","Cuţitele","Organismele"]}],
+[["ATTRAGREEROMANIAN-mismatchheadpl",9],DS, {s:" Cuţitele de lângă organismul viu uneori au viruşi letali numeroşi."},"QuestionAlt", {q: "Cine/ce are viruşi letali numeroşi?", as: ["Cuţitul","Organismul","Cuţitele","Organismele"]}],
 [["ATTRAGREEROMANIAN-matchheadsg",10],DS, {s:"Tabloul de lângă animalul dungat uneori au vizitatori preşcolari curioşi."},"QuestionAlt", {q: "Cine/ce are vizitatori preşcolari curioşi? ", as: ["Tabloul","Animalul","Tablourile","Animalele"]}],   
 [["ATTRAGREEROMANIAN-mismatchheadsg",10],DS, {s:"Tabloul de lângă animalele dungate uneori au vizitatori preşcolari curioşi."},"QuestionAlt", {q: "Cine/ce are vizitatori preşcolari curioşi?", as: ["Tabloul","Animalul","Tablourile","Animalele"]}], 
 [["ATTRAGREEROMANIAN-matchheadpl",10],DS, {s:"Tablourile de lângă animalele dungate uneori au vizitatori preşcolari curioşi."},"QuestionAlt", {q: "Cine/ce are vizitatori preşcolari curioşi?", as: ["Tabloul","Animalul","Tablourile","Animalele"]}],  
